@@ -3,19 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Index</title>
+    <title>Titre de la page / homepage</title>
   </head>
-  <body style="background-color: beige">
+  <body style="background-color: beige; color: #676767">
     <table
       style="
-        background-color: burlywood;
+        font-family: sans-serif;
         width: 80%;
-        border: 1px solid aqua;
         margin: 0 auto;
+        border: 0;
+        border-collapse: collapse;
       "
     >
       <thead>
-        <tr>
+        <tr height="45px" bgcolor="burlywood">
           <th>
             <a
               href="index.html"
@@ -27,71 +28,62 @@
           </th>
           <th>
             <a
-              href="page2.html"
+              href="page1.html"
               target="_self"
-              title="ce lien vas vers la page 1"
+              title="ce lien vas vers la typography"
             >
-              page 2
+              Typography
             </a>
           </th>
           <th>
-            <a
-              href="page3.html"
-              target="_self"
-              title="ce lien vas vers la page 3"
-            >
-              vers la page 3
+            <a href="page2.html" target="_self" title="ce lien vas Elements">
+              Elements
             </a>
           </th>
           <th>
-            <a
-              href="page4.html"
-              target="_self"
-              title="ce lien vas vers la page 4"
-            >
-              vers la page 4
+            <a href="page3.html" target="_self" title="Formulaire">
+              Formulaire
             </a>
           </th>
           <th>
-            <a
-              href="page5.html"
-              target="_self"
-              title="ce lien vas vers la page 5"
-            >
-              vers la page 5
-            </a>
+            <a href="page4.html" target="_self" title="Lists"> Lists </a>
           </th>
         </tr>
       </thead>
       <tbody>
         <tr>
           <td colspan="5">
-            <table style="border: 1px solid red; width: 100%">
+            <table style="width: 100%; background-color: white">
               <tr>
+                <td width="22px"></td>
                 <td>
                   <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Tempora, praesentium, perspiciatis dolor repellendus saepe
-                    eos ducimus, aliquid necessitatibus explicabo eum quis
-                    eligendi voluptatibus nobis aspernatur asperiores unde
-                    architecto itaque impedit?
+                    HTML signifie <b>« HyperText Markup Language »</b> qu'on
+                    peut traduire par « langage de balises pour l'hypertexte ».
+                    <br />
+                    Il est utilisé afin de créer et de représenter le contenu
+                    d'une page web et sa structure. D'autres technologies sont
+                    utilisées avec HTML pour décrire la présentation d'une page
+                    (CSS) et/ou ses fonctionnalités interactives (JavaScript).
+                    Hypertexte : Fonction permettant d'établir des liaisons
+                    directes entre éléments (texte, image…) de documents
+                    différents. Le langage HTML tout entier repose sur
+                    l’utilisation d’éléments. <br /><br />Si vous comprenez bien
+                    ce qu’est un élément, vous comprenez le HTML.
+                    <br />Aujourd’hui, il existe plus de 120 éléments HTML
+                    différents aux rôles très variés et qui font la richesse de
+                    ce langage.
                   </p>
                 </td>
-                <td>place pour une image</td>
+                <td>
+                  <img src="./assets/img/html-pngegg.png" alt="logo html" />
+                </td>
               </tr>
             </table>
           </td>
         </tr>
       </tbody>
     </table>
-
-    <!-- balise A href 
-    href = le chemin
-    target = la cible
-    <a href="page1.html" target="_self" title="ce lien vas vers la page 1">
-     vers la page 1
-    </a>
-   -->
   </body>
 </html>
 <!--
